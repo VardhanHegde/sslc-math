@@ -6,8 +6,8 @@ app = FastAPI()
 
 a = "question"
 b = "answer"
-c=a+"1"
-d=b+"1"
+c=a+"2"
+d=b+"2"
 questions = [[a,b],[c,d]]
 
 @app.get("/")
