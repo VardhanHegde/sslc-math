@@ -6,15 +6,8 @@ from questionDB import questions
 
 app = FastAPI()
 
-<<<<<<< HEAD
 total_questions = len(questions)
-=======
-a = "question"
-b = "answer"
-c=a+"2"
-d=b+"2"
-questions = [[a,b],[c,d]]
->>>>>>> 08fa3a637f0cd7d34a97b6dcabdc6bc0d9164518
+
 
 @app.get(
     "/questions",
