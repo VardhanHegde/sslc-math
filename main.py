@@ -16,8 +16,6 @@ total_rnq4 = len(rnq4)
 total_rnq5 = len(rnq5)
 total_rnq6 = len(rnq6)
 
-app = FastAPI()
-
 templates = Jinja2Templates(directory="templates")
 
 @app.get("/test/", response_class=HTMLResponse,)
